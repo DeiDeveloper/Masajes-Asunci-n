@@ -9,8 +9,8 @@
     --gold-light: #f3d4a6;
     
     /* Typography */
-    --font-heading: 'Montserrat', sans-serif;
-    --font-body: 'Inter', sans-serif;
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Lato', sans-serif;
     
     /* Transitions */
     --transition: all 0.3s ease;
