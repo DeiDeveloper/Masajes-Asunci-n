@@ -483,9 +483,15 @@ a {
     gap: 30px;
 }
 
-.intro-logo {
-    width: 100px;
-    height: auto;
+.intro-logo-container {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.intro-logo-svg {
+    width: 60px;
+    height: 60px;
 }
 
 .intro-text {
