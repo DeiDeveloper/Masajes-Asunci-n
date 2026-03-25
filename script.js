@@ -1,3 +1,14 @@
+// Splash screen: hide after 2.5 seconds
+(function() {
+    const splash = document.getElementById('splash-screen');
+    if (splash) {
+        setTimeout(() => {
+            splash.classList.add('hidden');
+            setTimeout(() => splash.remove(), 800);
+        }, 2500);
+    }
+})();
+
 // Navbar scroll effect
 const navbar = document.getElementById('navbar');
 window.addEventListener('scroll', () => {
